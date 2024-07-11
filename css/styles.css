@@ -1,0 +1,57 @@
+/* site-wide stlying */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* index.html styling */
+
+.home-header {
+    color: rgb(177, 152, 40);
+    text-align: center;
+    font-size: 48px;
+}
+
+.home-header.secondary {
+    text-align: left;
+    font-size: 36px;
+}
+
+.home-logo {
+    margin:auto;
+    display: block;
+    height: auto;
+    width: 300px;
+}
+
+.home-recipe {
+    font-size: 24px;
+    color: rgb(3, 2, 99);
+    text-align: left;
+    margin: 10px;
+}
+
+/* recpipe pages styling */
+
+h1 {
+    color: rgb(177, 152, 40);
+    font-size: 36px;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+h2 {
+    color: rgb(177, 152, 40);
+    font-size: 24px;
+}
+
+ul,
+ol,
+p {
+    color: rgb(3, 2, 99);
+    line-height: 170%;
+}
+
